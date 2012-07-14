@@ -1,0 +1,3 @@
+[submodule "git-maven-multi-module-test"]
+	path = git-maven-multi-module-test
+	url = https://github.com/amchaminda/sandbox.git
