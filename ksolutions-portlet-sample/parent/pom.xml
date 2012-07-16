@@ -18,7 +18,7 @@
         <connection>scm:git:git@github.com:amchaminda/sandbox.git</connection>
         <url>scm:git:git@github.com:amchaminda/sandbox.git</url>
         <developerConnection>scm:git:git@github.com:amchaminda/sandbox.git</developerConnection>
-  </scm>
+    </scm>
     
     <build>
         <plugins>
