@@ -4,7 +4,7 @@
 
     <groupId>ks.ps</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -18,7 +18,6 @@
         <connection>scm:git:git@github.com:amchaminda/sandbox.git</connection>
         <url>scm:git:git@github.com:amchaminda/sandbox.git</url>
         <developerConnection>scm:git:git@github.com:amchaminda/sandbox.git</developerConnection>
-      <tag>parent-1.0</tag>
   </scm>
     
     <build>

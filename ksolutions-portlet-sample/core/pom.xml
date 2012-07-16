@@ -4,13 +4,13 @@
     <parent>
         <groupId>ks.ps</groupId>
         <artifactId>parent</artifactId>
-        <version>1.0</version>
+        <version>1.0.1-SNAPSHOT</version>
         <relativePath>../parent/pom.xml</relativePath>
     </parent>
 
     <groupId>ks.ps</groupId>
     <artifactId>core</artifactId>
-    <version>1.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>KS PS Core</name>
