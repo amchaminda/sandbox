@@ -3,7 +3,7 @@
   <persistence-unit name="chams.open.ks-sample_core_jar_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>chams.open.kssample.core.Employee</class>
-    <class>chams.open.kssample.core.Role</class>
+    <class>chams.open.kssample.core.Designation</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/KS_PS_SAMPLE_DB"/>
       <property name="javax.persistence.jdbc.password" value="ks"/>

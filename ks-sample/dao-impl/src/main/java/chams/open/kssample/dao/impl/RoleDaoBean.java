@@ -4,7 +4,7 @@
  */
 package chams.open.kssample.dao.impl;
 
-import chams.open.kssample.core.Role;
+import chams.open.kssample.core.Designation;
 import chams.open.kssample.dao.GenericDao;
 import chams.open.kssample.dao.RoleDaoLocal;
 import chams.open.kssample.dao.RoleDaoRemote;
@@ -17,7 +17,7 @@ import javax.persistence.PersistenceContext;
  * @author cam
  */
 @Stateless
-public class RoleDaoBean extends GenericDao<Role> implements RoleDaoLocal, RoleDaoRemote {
+public class RoleDaoBean extends GenericDao<Designation> implements RoleDaoLocal, RoleDaoRemote {
 
     @PersistenceContext(unitName = "ks-sample-PU")
     private EntityManager em;
@@ -28,6 +28,6 @@ public class RoleDaoBean extends GenericDao<Role> implements RoleDaoLocal, RoleD
     }
 
     public RoleDaoBean() {
-        super(Role.class);
+        super(Designation.class);
     }
 }

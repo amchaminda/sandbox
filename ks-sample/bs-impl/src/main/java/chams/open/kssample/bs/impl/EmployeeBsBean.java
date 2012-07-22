@@ -4,7 +4,6 @@
  */
 package chams.open.kssample.bs.impl;
 
-import chams.open.kssample.dao.EmployeeDao;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 
@@ -15,8 +14,6 @@ import javax.inject.Inject;
 @Stateless
 public class EmployeeBsBean implements EmployeeBsBeanRemote {
 
-    @Inject
-    private EmployeeDao employeeDao;
     // Add business logic below. (Right-click in editor and choose
     // "Insert Code > Add Business Method")
     

@@ -4,7 +4,7 @@
  */
 package chams.open.kssample.dao;
 
-import chams.open.kssample.core.Role;
+import chams.open.kssample.core.Designation;
 import java.util.List;
 import javax.ejb.Local;
 
@@ -15,17 +15,17 @@ import javax.ejb.Local;
 @Local
 public interface RoleDaoLocal {
 
-    void create(Role role);
+    void create(Designation role);
 
-    void edit(Role role);
+    void edit(Designation role);
 
-    void remove(Role role);
+    void remove(Designation role);
 
-    Role find(Object id);
+    Designation find(Object id);
 
-    List<Role> findAll();
+    List<Designation> findAll();
 
-    List<Role> findRange(int[] range);
+    List<Designation> findRange(int[] range);
 
     int count();
     
