@@ -5,8 +5,12 @@
     <artifactId>ks-sample</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>KS Portlet Sample - Parent</name>
+    <name>KS PS - Parent</name>
     <modules>
         <module>core</module>
+        <module>dao</module>
+        <module>dao-impl</module>
+        <module>bs</module>
+        <module>bs-impl</module>
     </modules>
 </project>
