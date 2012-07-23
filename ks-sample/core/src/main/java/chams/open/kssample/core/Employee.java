@@ -23,7 +23,7 @@ public class Employee implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
 
@@ -33,7 +33,7 @@ public class Employee implements Serializable {
 
     @ManyToOne(optional=false)
     @JoinColumn(nullable=false)
-    private Designation designationId;
+    private Designation designation;
 
     public Employee() {
     }
@@ -80,12 +80,12 @@ public class Employee implements Serializable {
         this.kids = kids;
     }
 
-    public Designation getDesignationId() {
-        return designationId;
+    public Designation getDesignation() {
+        return designation;
     }
 
-    public void setDesignationId(Designation designationId) {
-        this.designationId = designationId;
+    public void setDesignation(Designation designation) {
+        this.designation = designation;
     }
 
     @Override

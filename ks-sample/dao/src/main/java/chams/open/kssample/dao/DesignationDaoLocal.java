@@ -6,14 +6,14 @@ package chams.open.kssample.dao;
 
 import chams.open.kssample.core.Designation;
 import java.util.List;
-import javax.ejb.Remote;
+import javax.ejb.Local;
 
 /**
  *
  * @author cam
  */
-@Remote
-public interface RoleDaoRemote {
+@Local
+public interface DesignationDaoLocal {
 
     void create(Designation role);
 

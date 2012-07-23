@@ -4,10 +4,10 @@
  */
 package chams.open.kssample.dao.impl;
 
-import chams.open.kssample.dao.GenericDao;
+import chams.open.kssample.core.Employee;
 import chams.open.kssample.dao.EmployeeDaoLocal;
 import chams.open.kssample.dao.EmployeeDaoRemote;
-import chams.open.kssample.core.Employee;
+import chams.open.kssample.dao.GenericDao;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
